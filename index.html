@@ -9,13 +9,22 @@
     <body>
         <h1>ToDoリスト</h1>
         <form>
-            <input class="task_value" type="text" placeholder="ToDoを入力"/>
-            <button class="task_submit" type="button">追加</button>
+            <input class = 'value' class = "task_value" type="text" placeholder="ToDoを入力"/>
+            <button class ="task_submit" type="button">追加</button>
         </form>
 
         <h2>リスト一覧</h2>
         <div class="table">
-            <ul class="task_list"></ul>
+            <span>
+                <ul class="task_list"></ul>
+            </span>
+        </div>
+
+        <h2>完了済みタスク</h2>
+        <div class="complet">
+            <span>
+                <ul class="complet_task"></ul>
+            </span>
         </div>
         <script src="javascript/index.js"></script>
     </body>

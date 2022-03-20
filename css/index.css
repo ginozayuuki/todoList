@@ -31,8 +31,58 @@ h2{
     width: 100%;
     margin: 3px;
 }
-.table li{
+
+.table ul{
+    list-style: none;
+    font-size: 25px;
+    color: rgb(41, 149, 199);
+}
+
+.List{
+    box-sizing: border-box;
     width: 100%;
     border-bottom: 0.5px solid;
     border-color: rgb(216, 234, 247);
+}
+
+.complet{
+    width: 100%;
+    margin: 3px;
+}
+
+.complet ul{
+    list-style: none;
+    font-size: 25px;
+    color: rgb(41, 149, 199);
+}
+
+.complet_task{
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 0.5px solid;
+    border-color: rgb(216, 234, 247);
+}
+
+.Del_Button{
+    width: 40px;
+    height: 22px;
+    margin-left: 20px;
+    font-size: 4px;
+    float: right;
+}
+
+.Edit_Button{
+    width: 40px;
+    height: 22px;
+    margin-left: 20px;
+    font-size: 4px;
+    float: right;
+}
+
+.comp_Button{
+    width: 40px;
+    height: 22px;
+    margin-left: 20px;
+    font-size: 4px;
+    float: right;
 }
